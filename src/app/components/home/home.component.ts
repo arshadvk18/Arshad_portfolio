@@ -71,7 +71,7 @@ import { RouterLink } from '@angular/router';
       <div class="projects-grid">
         <article class="project-card" aria-labelledby="p1">
           <div class="project-image">
-            <img src="assets/projects/cooling-tower.jpg" alt="Cooling Tower Water Treatment Calculator" />
+            <img src="assets/projects/cooling-tower.png" alt="Cooling Tower Water Treatment Calculator" />
           </div>
           <div class="project-info">
             <h3 id="p1">Cooling Tower Water Treatment Calculator</h3>

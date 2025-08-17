@@ -81,7 +81,7 @@ export class ProjectsComponent {
       title: 'Cooling Tower Water Treatment Program (2025)',
       description:
         'Responsive Angular 16+ calculator that optimizes chemical treatment based on water chemistry and system parameters. Includes reactive forms, heat map visualizations, LIMS integration, JWT auth, and JSON import/export.',
-      image: 'assets/projects/cooling-tower.jpg',
+      image: 'assets/projects/cooling-tower.png',
       tags: [
         'Front End',
         'Angular',
