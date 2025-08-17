@@ -5,221 +5,74 @@ import { Component } from '@angular/core';
   standalone: true,
   template: `
     <section class="skills-container">
-      <h1 >My Skills</h1>
+      <h1>My Skills & Technologies</h1>
       
       <div class="skills-categories">
-        <div class="skills-category">
-          <h2 >Frontend Development</h2>
-          <div class="skills-grid">
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-angular"></i>
-              </div>
-              <h3 >Angular</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 90%"></div>
-              </div>
-              <span class="skill-percentage">90%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-js"></i>
-              </div>
-              <h3 >JavaScript</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 85%"></div>
-              </div>
-              <span class="skill-percentage">85%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-html5"></i>
-              </div>
-              <h3 >HTML5</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 95%"></div>
-              </div>
-              <span class="skill-percentage">95%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-css3-alt"></i>
-              </div>
-              <h3 >CSS3</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 90%"></div>
-              </div>
-              <span class="skill-percentage">90%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-sass"></i>
-              </div>
-              <h3 >SASS/SCSS</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 85%"></div>
-              </div>
-              <span class="skill-percentage">85%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-react"></i>
-              </div>
-              <h3 >React</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 75%"></div>
-              </div>
-              <span class="skill-percentage">75%</span>
-            </div>
-          </div>
-        </div>
         
+        <!-- Programming -->
         <div class="skills-category">
-          <h2 >Tools & Technologies</h2>
-          <div class="skills-grid">
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-git-alt"></i>
-              </div>
-              <h3 >Git</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 88%"></div>
-              </div>
-              <span class="skill-percentage">88%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fab fa-npm"></i>
-              </div>
-              <h3 >NPM</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 85%"></div>
-              </div>
-              <span class="skill-percentage">85%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-terminal"></i>
-              </div>
-              <h3 >Command Line</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 80%"></div>
-              </div>
-              <span class="skill-percentage">80%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-code-branch"></i>
-              </div>
-              <h3 >REST APIs</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 85%"></div>
-              </div>
-              <span class="skill-percentage">85%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-database"></i>
-              </div>
-              <h3 >Databases</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 70%"></div>
-              </div>
-              <span class="skill-percentage">70%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-cloud"></i>
-              </div>
-              <h3 >Cloud Services</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 65%"></div>
-              </div>
-              <span class="skill-percentage">65%</span>
-            </div>
+          <h2><i class="fas fa-code"></i> Programming</h2>
+          <div class="skills-tags">
+            <span class="tag"><i class="fab fa-java"></i> Java</span>
+            <span class="tag"><i class="fab fa-python"></i> Python</span>
+            <span class="tag"><i class="fab fa-js"></i> JavaScript (ES6+)</span>
+            <span class="tag"><i class="fab fa-js"></i> TypeScript</span>
+            <span class="tag"><i class="fas fa-database"></i> SQL</span>
+            <span class="tag"><i class="fab fa-html5"></i> HTML</span>
+            <span class="tag"><i class="fab fa-css3-alt"></i> CSS</span>
+            <span class="tag"><i class="fas fa-file-code"></i> AppScript</span>
           </div>
         </div>
-        
+
+        <!-- Frameworks -->
         <div class="skills-category">
-          <h2 >Soft Skills</h2>
-          <div class="skills-grid">
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-users"></i>
-              </div>
-              <h3 >Teamwork</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 95%"></div>
-              </div>
-              <span class="skill-percentage">95%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-comments"></i>
-              </div>
-              <h3 >Communication</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 90%"></div>
-              </div>
-              <span class="skill-percentage">90%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-tasks"></i>
-              </div>
-              <h3 >Project Management</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 85%"></div>
-              </div>
-              <span class="skill-percentage">85%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-lightbulb"></i>
-              </div>
-              <h3 >Problem Solving</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 92%"></div>
-              </div>
-              <span class="skill-percentage">92%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-book"></i>
-              </div>
-              <h3 >Continuous Learning</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 98%"></div>
-              </div>
-              <span class="skill-percentage">98%</span>
-            </div>
-            
-            <div class="skill-item">
-              <div class="skill-icon">
-                <i class="fas fa-clock"></i>
-              </div>
-              <h3 >Time Management</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 88%"></div>
-              </div>
-              <span class="skill-percentage">88%</span>
-            </div>
+          <h2><i class="fas fa-layer-group"></i> Frameworks</h2>
+          <div class="skills-tags">
+            <span class="tag"><i class="fab fa-angular"></i> Angular</span>
+            <span class="tag"><i class="fas fa-leaf"></i> Spring Boot</span>
+            <span class="tag"><i class="fas fa-flask"></i> Flask</span>
+            <span class="tag"><i class="fas fa-project-diagram"></i> RxJS</span>
+            <span class="tag"><i class="fas fa-cubes"></i> PrimeNG</span>
+            <span class="tag"><i class="fas fa-paint-brush"></i> Angular Material</span>
+            <span class="tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
           </div>
         </div>
+
+        <!-- Cloud & Tools -->
+        <div class="skills-category">
+          <h2><i class="fas fa-cloud"></i> Cloud & Tools</h2>
+          <div class="skills-tags">
+            <span class="tag"><i class="fab fa-aws"></i> AWS (S3, Lambda, CloudFront, Cognito, CodeCommit)</span>
+            <span class="tag"><i class="fas fa-chart-bar"></i> Power BI</span>
+            <span class="tag"><i class="fas fa-tasks"></i> JIRA</span>
+            <span class="tag"><i class="fas fa-code"></i> Google Apps Script</span>
+          </div>
+        </div>
+
+        <!-- Practices -->
+        <div class="skills-category">
+          <h2><i class="fas fa-cogs"></i> Practices</h2>
+          <div class="skills-tags">
+            <span class="tag"><i class="fas fa-users-cog"></i> Agile</span>
+            <span class="tag"><i class="fas fa-plug"></i> REST API Design</span>
+            <span class="tag"><i class="fas fa-robot"></i> AI Integration</span>
+            <span class="tag"><i class="fas fa-sync-alt"></i> CI/CD Pipelines</span>
+            <span class="tag"><i class="fas fa-chart-line"></i> Data Visualization</span>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-category">
+          <h2><i class="fas fa-user-friends"></i> Soft Skills</h2>
+          <div class="skills-tags">
+            <span class="tag"><i class="fas fa-lightbulb"></i> Problem-Solving</span>
+            <span class="tag"><i class="fas fa-users"></i> Teamwork</span>
+            <span class="tag"><i class="fas fa-comments"></i> Communication</span>
+            <span class="tag"><i class="fas fa-user-tie"></i> Leadership</span>
+            <span class="tag"><i class="fas fa-rocket"></i> Innovation</span>
+          </div>
+        </div>
+
       </div>
     </section>
   `,

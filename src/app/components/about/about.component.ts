@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
   imports: [RouterLink],
   template: `
     <section class="about-container">
-      <h1 >About Me</h1>
+      <h1>About Me</h1>
       
       <div class="about-content">
         <div class="about-image">
@@ -15,21 +15,23 @@ import { RouterLink } from '@angular/router';
         </div>
         
         <div class="about-text">
-          <p >
-            Hello! I'm <strong >Arshad Mahmood</strong>, a passionate frontend developer with a focus on creating beautiful, 
-            functional, and user-friendly web applications. With over X years of experience in web development, 
-            I specialize in building modern applications using Angular and other cutting-edge technologies.
+          <p>
+            Hello! I'm <strong>Arshad Mahmood</strong>, a <strong>Full-Stack Software Engineer</strong> with expertise in 
+            <strong>Angular, Java Spring Boot, Python, and AWS</strong>. I specialize in building <em>AI-driven, scalable, 
+            and enterprise-grade applications</em> that merge engineering insight with cutting-edge technology.
           </p>
           
-          <p >
-            My journey in web development began when I discovered my passion for creating interactive user experiences. 
-            Since then, I've been constantly learning and improving my skills to stay up-to-date with the latest 
-            technologies and best practices in the industry.
+          <p>
+            My professional journey started with a degree in <strong>Chemical Engineering</strong>, but my passion for problem-solving 
+            and innovation led me to software engineering. At <strong>Veolia Water Technologies & Solutions</strong>, I’ve delivered 
+            impactful solutions — from <strong>AI assistant platforms</strong> and <strong>cost estimation tools</strong> to 
+            <strong>interactive treatment calculators</strong> — used by hundreds of employees worldwide.
           </p>
           
-          <p >
-            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-            or enjoying outdoor activities like hiking and photography.
+          <p>
+            Recognized as <strong>Best Performer of the Year 2024</strong> and winner of the <strong>Veolia Techathon 2024</strong>, 
+            I thrive at the intersection of <em>technology, engineering, and innovation</em>. 
+            Beyond coding, I enjoy exploring new technologies, mentoring peers, and staying inspired by real-world challenges.
           </p>
           
           <div class="about-buttons">
@@ -41,52 +43,62 @@ import { RouterLink } from '@angular/router';
       
       <div class="education-experience">
         <div class="education">
-          <h2 >Education</h2>
+          <h2>Education</h2>
           
           <div class="timeline">
             <div class="timeline-item">
               <div class="timeline-dot"></div>
               <div class="timeline-content">
-                <h3 >Bachelor's Degree in Computer Science</h3>
-                <p class="timeline-date">2016 - 2020</p>
-                <p >University Name</p>
-                <p >Relevant coursework: Web Development, Data Structures, Algorithms, Database Systems</p>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h3 >Web Development Bootcamp</h3>
-                <p class="timeline-date">2020</p>
-                <p >Bootcamp Name</p>
-                <p >Intensive training in modern web development technologies and practices</p>
+                <h3>Bachelor of Technology in Chemical Engineering</h3>
+                <p class="timeline-date">2019 - 2023</p>
+                <p>Institute of Engineering and Technology, Lucknow</p>
+                <p>Graduated with a CGPA of 8.11/10</p>
               </div>
             </div>
           </div>
         </div>
         
         <div class="experience">
-          <h2 >Experience</h2>
+          <h2>Experience</h2>
           
           <div class="timeline">
             <div class="timeline-item">
               <div class="timeline-dot"></div>
               <div class="timeline-content">
-                <h3 >Senior Frontend Developer</h3>
-                <p class="timeline-date">2022 - Present</p>
-                <p >Company Name</p>
-                <p >Leading the development of web applications using Angular, implementing best practices, and mentoring junior developers.</p>
+                <h3>Software Engineer</h3>
+                <p class="timeline-date">Jul 2024 – Present</p>
+                <p>Veolia Water Technologies & Solutions, Bangalore</p>
+                <p>
+                  Developing enterprise-scale tools like a Cooling Tower Water Treatment Calculator, 
+                  Tank Sizing & Cost Estimation platform, and AI-powered reporting modules. 
+                  Delivered solutions impacting 500+ users across regions.
+                </p>
               </div>
             </div>
             
             <div class="timeline-item">
               <div class="timeline-dot"></div>
               <div class="timeline-content">
-                <h3 >Frontend Developer</h3>
-                <p class="timeline-date">2020 - 2022</p>
-                <p >Company Name</p>
-                <p >Developed responsive web applications using Angular, collaborated with designers and backend developers to implement features.</p>
+                <h3>Graduate Engineer Trainee (GET)</h3>
+                <p class="timeline-date">Jul 2023 – Jul 2024</p>
+                <p>Veolia Water Technologies & Solutions, Bangalore</p>
+                <p>
+                  Built a Chemical Compatibility Tool integrating engineering and programming. 
+                  Earned appreciation for creating efficient in-house solutions.
+                </p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Intern</h3>
+                <p class="timeline-date">Jul 2022 – Sep 2022</p>
+                <p>Suez Water Technologies & Solutions, Bangalore</p>
+                <p>
+                  Automated reference lists and improved reporting workflows. 
+                  Gained hands-on experience with Power BI and cross-team collaboration.
+                </p>
               </div>
             </div>
           </div>
