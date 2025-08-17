@@ -34,7 +34,7 @@ interface Project {
           (click)="filterProjects('full stack')"
         >Full Stack</button>
 
-        <button 
+        <!-- <button 
           [class.active]="activeFilter === 'angular'"
           (click)="filterProjects('angular')"
         >Angular</button>
@@ -42,7 +42,7 @@ interface Project {
         <button 
           [class.active]="activeFilter === 'ai'"
           (click)="filterProjects('ai')"
-        >AI</button>
+        >AI</button> -->
       </div>
       
       <div class="projects-grid">
@@ -93,7 +93,7 @@ export class ProjectsComponent {
       ],
       github: '#',
       demo: '#',
-      featured: true
+      featured: false
     },
     {
       id: 2,
@@ -104,7 +104,7 @@ export class ProjectsComponent {
       tags: ['Full Stack', 'Python', 'Flask', 'AI', 'Gemini API', 'REST APIs'],
       github: 'https://github.com/arshadvk18/ai-learning-assistant',
       demo: 'https://ai-learning-assistant-frontend-asyv.onrender.com/',
-      featured: true
+      featured: false
     },
     {
       id: 3,
@@ -122,7 +122,7 @@ export class ProjectsComponent {
       title: 'Tank Sizing & Cost Estimation Platform',
       description:
         'Angular + Ant Design app that automates chemical storage calculations and cost estimation. Dynamic forms for 10+ concurrent tank configs, location-aware warehouse/shipping, PDF/Excel/JSON exports via Google Sheets API, and server-side filtering.',
-      image: 'assets/projects/tank-sizing.jpg',
+      image: 'assets/projects/tank-sizing.png',
       tags: ['Front End', 'Angular', 'Ant Design', 'Google Sheets API', 'Exports'],
       github: '#',
       demo: '#',
@@ -133,7 +133,7 @@ export class ProjectsComponent {
       title: 'Reporting Module Revamp (2024)',
       description:
         'Collaborated to deliver a scalable, user-friendly reporting module from scratch using Angular Material & PrimeNG on AWS, incorporating continuous feedback for improvements.',
-      image: 'assets/projects/reporting-module.jpg',
+      image: 'assets/projects/reporting-module.png',
       tags: ['Front End', 'Angular', 'Angular Material', 'PrimeNG', 'AWS'],
       github: '#',
       demo: '#',
@@ -144,7 +144,7 @@ export class ProjectsComponent {
       title: 'Attendance Monitoring Tool (2024)',
       description:
         'Apps Script + Google Sheets tool used by 500+ users to streamline attendance across locations. Built with HTML/CSS UI and automated workflows.',
-      image: 'assets/projects/attendance-tool.jpg',
+      image: 'assets/projects/attendance-tool.png',
       tags: ['Full Stack', 'Apps Script', 'Google Sheets', 'Automation'],
       github: '#',
       demo: '#',
@@ -155,7 +155,7 @@ export class ProjectsComponent {
       title: 'Chemical Compatibility Tool (2023)',
       description:
         'Solo-built tool combining chemical engineering with software—HTML/CSS/JS frontend with Spring Boot + SQL backend. Foundation for future internal full-stack tools.',
-      image: 'assets/projects/chemical-compatibility.jpg',
+      image: 'assets/projects/chemical-compatibility.png',
       tags: ['Full Stack', 'Spring Boot', 'SQL', 'JavaScript', 'Engineering'],
       github: '#',
       demo: '#',
