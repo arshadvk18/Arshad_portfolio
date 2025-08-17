@@ -100,10 +100,10 @@ export class ProjectsComponent {
       title: 'AI-Powered Learning Assistant',
       description:
         'Flask + Google Gemini API platform with adaptive quizzes, structured prompt engineering, progress analytics, robust fallbacks, and a RESTful backend with strong error handling, env management, and CORS.',
-      image: 'assets/projects/ai-learning.jpg',
+      image: 'assets/project1.jpg',
       tags: ['Full Stack', 'Python', 'Flask', 'AI', 'Gemini API', 'REST APIs'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/arshadvk18/ai-learning-assistant',
+      demo: 'https://ai-learning-assistant-frontend-asyv.onrender.com/',
       featured: true
     },
     {
