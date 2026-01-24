@@ -96,6 +96,51 @@ import { RouterLink } from '@angular/router';
         <a routerLink="/projects" class="btn secondary">View All Projects</a>
       </div>
     </section>
+
+    <section class="featured-certifications fade-in-section" id="certifications" aria-labelledby="certifications-title">
+      <h2 id="certifications-title">Certifications</h2>
+      <div class="certifications-grid">
+        <article class="cert-card" aria-labelledby="c1">
+          <div class="cert-icon">
+            <i class="fas fa-certificate" aria-hidden="true"></i>
+          </div>
+          <div class="cert-info">
+            <h3 id="c1">Generative AI for Web Developers</h3>
+            <p class="cert-org">LinkedIn Learning</p>
+            <p class="cert-date">January 2026</p>
+            <span class="cert-badge">AI/ML</span>
+          </div>
+        </article>
+
+        <article class="cert-card" aria-labelledby="c2">
+          <div class="cert-icon">
+            <i class="fas fa-certificate" aria-hidden="true"></i>
+          </div>
+          <div class="cert-info">
+            <h3 id="c2">Angular Essential Training</h3>
+            <p class="cert-org">LinkedIn Learning</p>
+            <p class="cert-date">February 2025</p>
+            <span class="cert-badge">Frontend</span>
+          </div>
+        </article>
+
+        <article class="cert-card" aria-labelledby="c3">
+          <div class="cert-icon">
+            <i class="fas fa-certificate" aria-hidden="true"></i>
+          </div>
+          <div class="cert-info">
+            <h3 id="c3">Python Essential Training</h3>
+            <p class="cert-org">LinkedIn Learning</p>
+            <p class="cert-date">July 2025</p>
+            <span class="cert-badge">Backend</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="center-button">
+        <a routerLink="/certifications" class="btn secondary">View All Certifications</a>
+      </div>
+    </section>
   `,
   styleUrls: ['./home.component.scss']
 })
@@ -103,7 +148,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
   private timers: number[] = [];
   private observer?: IntersectionObserver;
 
-  constructor(private renderer: Renderer2) {}
+  constructor(private renderer: Renderer2) { }
 
   ngAfterViewInit(): void {
     // Enable smooth scroll for the document
