@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive,CommonModule],
+  imports: [RouterLink, RouterLinkActive, CommonModule],
   template: `
     <header >
       <div class="logo">
@@ -17,6 +17,7 @@ import { CommonModule } from '@angular/common';
           <li ><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
           <li ><a routerLink="/about" routerLinkActive="active">About</a></li>
           <li ><a routerLink="/skills" routerLinkActive="active">Skills</a></li>
+          <li ><a routerLink="/certifications" routerLinkActive="active">Certifications</a></li>
           <li ><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
           <li ><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
         </ul>
@@ -30,5 +31,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  constructor(public themeService: ThemeService) {}
+  constructor(public themeService: ThemeService) { }
 }
