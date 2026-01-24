@@ -133,7 +133,7 @@ export class CertificationsComponent {
       organization: 'LinkedIn Learning',
       issueDate: 'January 2026',
       category: 'AI/ML',
-      pdfPath: 'assets/certificates/Gi_full.pdf'
+      pdfPath: 'assets/certificates/generative-ai-web-developers.pdf'
     },
     {
       id: 2,
@@ -141,7 +141,7 @@ export class CertificationsComponent {
       organization: 'LinkedIn Learning',
       issueDate: 'February 2025',
       category: 'Frontend',
-      pdfPath: 'assets/certificates/ang.pdf'
+      pdfPath: 'assets/certificates/angular-essential-training.pdf'
     },
     {
       id: 3,
@@ -149,7 +149,7 @@ export class CertificationsComponent {
       organization: 'LinkedIn Learning',
       issueDate: 'July 2025',
       category: 'Backend',
-      pdfPath: 'assets/certificates/pyt.pdf'
+      pdfPath: 'assets/certificates/python-essential-training.pdf'
     },
     {
       id: 4,
@@ -157,7 +157,7 @@ export class CertificationsComponent {
       organization: 'Project Management Institute',
       issueDate: 'February 2025',
       category: 'Cloud',
-      pdfPath: 'assets/certificates/scrum.pdf'
+      pdfPath: 'assets/certificates/scrum-master-certification.pdf'
     },
     {
       id: 5,
@@ -165,7 +165,7 @@ export class CertificationsComponent {
       organization: 'Project Management Institute',
       issueDate: 'January 2026',
       category: 'AI/ML',
-      pdfPath: 'assets/certificates/aicss.pdf'
+      pdfPath: 'assets/certificates/ai-cybersecurity.pdf'
     },
     {
       id: 6,
@@ -173,7 +173,7 @@ export class CertificationsComponent {
       organization: 'National Association of State Board of Accountancy',
       issueDate: 'January 2026',
       category: 'AI/ML',
-      pdfPath: 'assets/certificates/Gi_bussiness.pdf'
+      pdfPath: 'assets/certificates/generative-ai-business-leaders.pdf'
     }
   ];
 
