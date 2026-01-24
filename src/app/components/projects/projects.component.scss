@@ -8,7 +8,7 @@
     margin-bottom: 3rem;
     font-size: 2.5rem;
     position: relative;
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -60,7 +60,7 @@
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
-  
+
   &:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -70,7 +70,7 @@
     height: 200px;
     overflow: hidden;
     position: relative;
-    
+
     img {
       width: 100%;
       height: 100%;
@@ -174,5 +174,247 @@
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+// Dialog Styles
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+  animation: fadeIn 0.3s ease-out;
+  backdrop-filter: blur(4px);
+}
+
+.dialog-content {
+  background-color: var(--bg-secondary);
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease-out;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dialog-header {
+  padding: 2rem 2rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  .dialog-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+    color: var(--accent);
+    stroke-width: 2;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+  }
+}
+
+.dialog-body {
+  padding: 2rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 1rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+  }
+
+  .dialog-note {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: var(--bg-hover);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    border-left: 3px solid var(--accent);
+
+    svg {
+      width: 24px;
+      height: 24px;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+  }
+
+  .dialog-connect {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background: linear-gradient(135deg, rgba(61, 139, 253, 0.1) 0%, rgba(13, 110, 253, 0.05) 100%);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: var(--text-primary);
+    font-weight: 400;
+    border: 1px solid rgba(61, 139, 253, 0.2);
+
+    svg {
+      width: 24px;
+      height: 24px;
+      color: var(--accent);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    strong {
+      color: var(--accent);
+    }
+  }
+}
+
+.dialog-footer {
+  padding: 1rem 2rem 2rem;
+  text-align: center;
+
+  .btn {
+    min-width: 120px;
+    border: none;
+    font-size: 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .dialog-content {
+    margin: 1rem;
+    max-width: calc(100vw - 2rem);
+  }
+
+  .dialog-header {
+    padding: 1.5rem 1.5rem 1rem;
+
+    .dialog-icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .dialog-body {
+    padding: 1.5rem;
+    font-size: 0.95rem;
+
+    .dialog-note,
+    .dialog-connect {
+      padding: 0.875rem;
+      gap: 0.625rem;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .dialog-connect {
+      font-size: 0.9rem;
+    }
+  }
+
+  .dialog-footer {
+    padding: 1rem 1.5rem 1.5rem;
+
+    .btn {
+      width: 100%;
+      padding: 0.875rem 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .dialog-overlay {
+    padding: 0.5rem;
+  }
+
+  .dialog-content {
+    margin: 0.5rem;
+    max-width: calc(100vw - 1rem);
+  }
+
+  .dialog-header {
+    padding: 1.25rem 1.25rem 0.875rem;
+
+    .dialog-icon {
+      width: 45px;
+      height: 45px;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+    }
+  }
+
+  .dialog-body {
+    padding: 1.25rem;
+    font-size: 0.9rem;
+
+    p {
+      margin-bottom: 0.875rem;
+    }
+
+    .dialog-note,
+    .dialog-connect {
+      padding: 0.75rem;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+
+  .dialog-footer {
+    padding: 0.875rem 1.25rem 1.25rem;
   }
 }
