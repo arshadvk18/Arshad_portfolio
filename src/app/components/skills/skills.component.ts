@@ -29,6 +29,7 @@ import { Component } from '@angular/core';
           <h2><i class="fas fa-layer-group"></i> Frameworks</h2>
           <div class="skills-tags">
             <span class="tag"><i class="fab fa-angular"></i> Angular</span>
+            <span class="tag"><i class="fab fa-react"></i> React Native</span>
             <span class="tag"><i class="fas fa-leaf"></i> Spring Boot</span>
             <span class="tag"><i class="fas fa-flask"></i> Flask</span>
             <span class="tag"><i class="fas fa-project-diagram"></i> RxJS</span>
@@ -43,6 +44,7 @@ import { Component } from '@angular/core';
           <h2><i class="fas fa-cloud"></i> Cloud & Tools</h2>
           <div class="skills-tags">
             <span class="tag"><i class="fab fa-aws"></i> AWS (S3, Lambda, CloudFront, Cognito, CodeCommit)</span>
+            <span class="tag"><i class="fas fa-database"></i> Supabase</span>
             <span class="tag"><i class="fas fa-chart-bar"></i> Power BI</span>
             <span class="tag"><i class="fas fa-tasks"></i> JIRA</span>
             <span class="tag"><i class="fas fa-code"></i> Google Apps Script</span>
@@ -55,6 +57,7 @@ import { Component } from '@angular/core';
           <div class="skills-tags">
             <span class="tag"><i class="fas fa-users-cog"></i> Agile</span>
             <span class="tag"><i class="fas fa-plug"></i> REST API Design</span>
+            <span class="tag"><i class="fas fa-mobile-alt"></i> Mobile Application Development</span>
             <span class="tag"><i class="fas fa-robot"></i> AI Integration</span>
             <span class="tag"><i class="fas fa-sync-alt"></i> CI/CD Pipelines</span>
             <span class="tag"><i class="fas fa-chart-line"></i> Data Visualization</span>
