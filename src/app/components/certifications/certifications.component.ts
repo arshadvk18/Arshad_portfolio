@@ -174,6 +174,54 @@ export class CertificationsComponent {
       issueDate: 'January 2026',
       category: 'AI/ML',
       pdfPath: 'assets/certificates/generative-ai-business-leaders.pdf'
+    },
+    {
+      id: 7,
+      title: 'Become a React Native Developer',
+      organization: 'LinkedIn Learning',
+      issueDate: 'February 2026',
+      category: 'Frontend',
+      pdfPath: 'assets/certificates/Become a React Native Developer.pdf'
+    },
+    {
+      id: 8,
+      title: 'Practical Cybersecurity for IT Professionals',
+      organization: 'LinkedIn Learning',
+      issueDate: 'February 2026',
+      category: 'Cloud',
+      pdfPath: 'assets/certificates/Cert_Practical Cybersecurity for IT Professionals.pdf'
+    },
+    {
+      id: 9,
+      title: 'Create a CRM Mobile Application with React Native',
+      organization: 'LinkedIn Learning',
+      issueDate: 'February 2026',
+      category: 'Frontend',
+      pdfPath: 'assets/certificates/Create a CRM Mobile Application with React Native.pdf'
+    },
+    {
+      id: 10,
+      title: 'Learning React Native',
+      organization: 'LinkedIn Learning',
+      issueDate: 'February 2026',
+      category: 'Frontend',
+      pdfPath: 'assets/certificates/Learning React Native.pdf'
+    },
+    {
+      id: 11,
+      title: 'React Native Ecosystem and Workflow',
+      organization: 'LinkedIn Learning',
+      issueDate: 'February 2026',
+      category: 'Frontend',
+      pdfPath: 'assets/certificates/React Native Ecosystem and Workflow.pdf'
+    },
+    {
+      id: 12,
+      title: 'React Native Essential Training',
+      organization: 'LinkedIn Learning',
+      issueDate: 'February 2026',
+      category: 'Frontend',
+      pdfPath: 'assets/certificates/React Native Essential Training.pdf'
     }
   ];
 
